@@ -17,6 +17,7 @@ class Home extends MY_Controller{
 		 * $input_new_pro diều kiện của SP mới
 		 * $input_catalog diều kiện của danh mục sản phẩm
 		 */
+		$input_abc = array();
 		$input_slide = array();
 		$input_slide['where'] = array('status'=>1);
 		$input_slide['order'] = array('position','asc');
